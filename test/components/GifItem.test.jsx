@@ -3,8 +3,7 @@ import { GifItem } from "../../src/components/GifItem";
 
 // Test Suite de GifItem Component
 describe("Pruebas en <GifItem />", () => {
-
-  // Variables de prueba 
+  // Variables de prueba
   const title = "Un título";
   const url = "https://localhost/algo.jpg";
 
@@ -16,9 +15,6 @@ describe("Pruebas en <GifItem />", () => {
 
   // Test 2 - Debe mostrar la imagen con el URL y el ALT indicado
   test("debe mostrar la imagen con el URL y el ALT indicado", () => {
-    const title = "Un título";
-    const url = "https://localhost/algo.jpg";
-
     // const { getByAltText } = render(<GifItem title={title} url={url} />);
     // const img = getByAltText(title);
     // expect(img.src).toBe(url);
